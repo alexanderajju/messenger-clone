@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Button,InputLabel,Input,FormControl } from '@material-ui/core';
 import './App.css';
+import Message from './Message';
 
 function App() {
   const [input, setInput] = useState('');
@@ -30,7 +31,7 @@ function App() {
 
     {
       messages.map(message => (
-      <p>{message}</p>
+        <Message text={message}/>
       ))
     }
 
