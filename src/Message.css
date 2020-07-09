@@ -15,3 +15,9 @@ width: fit-content;
     background-color: #e9e9eb !important;
 
 }
+.username{
+    display: flex;
+    align-self:baseline ;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
